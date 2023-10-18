@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    display: flex;
+    background-color: rgb(24, 23, 23);
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 5px;
+    margin-top: -60px;
+    gap: 5px;
+    transition: all 400ms ease-in-out;
+}
+
+main {
+    display: flex;
+    width: 25%;
+    margin: 5px;
+    justify-content: flex-start;
+}
+
+header:hover {
+    padding: 0px 30px;
+    gap: 30px;
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(239, 238, 238);
+    font-size: 28px;
+}
+
+h1 {
+    color: rgb(70, 69, 69);
+    font-size: 32px;
+    transition: all 250ms ease-in-out;
+    user-select: none;
+}
+
+h1:hover {
+    color: rgb(32, 30, 30);
+    margin-bottom: 5px;
+}
+
+p {
+    color: rgb(76, 71, 71);
+    font-size: 16px;
+    transition: all 250ms ease-in-out;
+    user-select: none;
+}
+
+p:hover {
+    color: rgb(32, 30, 30);
+    font-size: 16.5px;
+}
+
+#logo {
+    width: 230px;
+    height: auto;
+}
+
+.header_a {
+    transition: all 300ms ease-in-out;
+}
+
+.header_a:hover {
+    color: rgb(198, 192, 192);
+    font-size: 32px;
+}
+
+.header_a_cont {
+    border: 3px dotted transparent;
+    border-radius: 1px;
+    padding: 1px 1px;
+    transition: all 300ms ease-in-out;
+}
+
+.header_a_cont:hover {
+    border: 3px dotted rgb(198, 192, 192);
+    border-radius: 16px;
+    padding: 5px 5px;
+}
+
+.main_info_cont {
+    background-color: rgb(218, 207, 207);
+    border: 1px solid rgb(218, 207, 207);
+    border-radius: 10px;
+    padding: 5px 5px;
+    transition: all 300ms ease-in-out;
+}
+
+.main_info_cont:hover {
+    background-color: rgb(198, 188, 188);
+    border: 1px solid rgb(198, 188, 188);
+    border-radius: 18px;
+}
