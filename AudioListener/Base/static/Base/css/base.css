@@ -72,7 +72,7 @@ h3:hover {
 p {
     color: rgb(76, 71, 71);
     font-size: 18px;
-    transition: all 250ms ease-in-out;
+    transition: all 350ms ease-in-out;
     user-select: none;
 }
 
@@ -141,6 +141,19 @@ p:hover {
     margin-top: 2%;
 }
 
+#live-info-cont-img {
+    width: 45%;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 0px;
+    transition: all 200ms ease-in-out;
+}
+
+#live-info-cont-img:hover {
+    margin-left: 60px;
+    width: 40%;
+}
+
 
 .header_a {
     transition: all 300ms ease-in-out;
@@ -192,6 +205,18 @@ p:hover {
 
 .live_info_cont:hover {
     border-radius: 22px;
+}
+
+.live-info-cont-h2 {
+    color: rgb(59, 58, 58);
+    font-size: 20px;
+    transition: all 250ms ease-in-out;
+    user-select: none;
+    text-shadow: 1px 1px 1.5px rgb(59, 58, 58);
+}
+
+.live-info-cont-h2:hover {
+    font-size: 20.5px;
 }
 
 @keyframes startAnimation {
