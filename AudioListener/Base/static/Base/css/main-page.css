@@ -55,10 +55,6 @@
     transition: all 200ms ease-in-out;
 }
 
-#live-info-cont-img:hover {
-    width: 42.5%;
-}
-
 #app-use-ideas-cont {
     width: 16%;
     background-color: rgb(218, 207, 207);
