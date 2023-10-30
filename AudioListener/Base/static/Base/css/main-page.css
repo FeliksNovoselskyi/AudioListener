@@ -29,11 +29,6 @@
     transition: all 100ms ease-in-out;
 }
 
-#main-cont-logo:hover {
-    width: 85%;
-    margin-left: 5.5%;
-}
-
 #ukraine-color {
     transition: all 150ms ease-in-out;
 }
@@ -50,10 +45,6 @@
     margin-left: -36%;
     margin-top: 2%;
     transition: all 100ms ease-in-out;
-}
-
-#app-use-ideas-logo:hover {
-    height: 58.5%;
 }
 
 #live-info-cont-img {
@@ -86,16 +77,16 @@
 
 #heart {
     width: 290px;
-    animation: heartAnimation 0.5s infinite linear;
+    animation: heartAnimation 5s infinite linear;
 }
 
 #heart-cont {
     background-color: transparent; /* rgb(232, 222, 222); */
     border: 6.5px double rgb(232, 222, 222);
-    width: 300px;
+    width: 350px;
     height: 355px;
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 20px 20px;
     transition: all 300ms ease-in-out;
     margin: 5px;
 }
@@ -119,7 +110,7 @@
     border-radius: 10px;
     padding: 10px 10px;
     transition: all 300ms ease-in-out;
-    margin-left: -335px;
+    margin-left: -300px;
     margin-top: 455px;
 }
 
@@ -129,13 +120,49 @@
     width: 290px;
     height: 335px;
     margin-top: 470px;
-    margin-left: -320px;
+    margin-left: -300px;
     border: 6.5px double rgb(193, 185, 185);
     border-radius: 22px;
 }
 
 #heart-cont-h3 {
     margin-left: 70px;
+}
+
+#right-cont {
+    height: 787.5px;
+    border: 5px dashed rgb(46, 44, 44);
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 80px;
+    text-align: center;
+    transition: all 365ms ease-in-out;
+}
+
+#right-cont:hover {
+    border-radius: 55px;
+}
+
+#arrow-up {
+    width: 20%;
+    height: auto;
+    margin-bottom: 35px;
+    transition: all 750ms ease-in-out;
+}
+
+#arrow-up:hover {
+    rotate: z 360deg;
+}
+
+#using-icons {
+    display: flex;
+    border: 2px dotted rgb(173, 173, 173);
+    border-radius: 16px;
+    padding: 10px;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 5px;
 }
 
 
@@ -185,6 +212,18 @@
     user-select: auto;
 }
 
+.using-icons-img {
+    width: 50px;
+    height: auto;
+    margin-bottom: -5px;
+}
+
+.path-logos {
+    width: 225px;
+    height: auto;
+    margin-top: 45px;
+}
+
 
 @keyframes startAnimation {
     0% {
@@ -199,15 +238,10 @@
 
 @keyframes heartAnimation {
     0% {
-        width: 290px;
-    }
-
-    50% {
-        width: 300px;
-        /* margin-left: ; */
+        rotate: z 0deg;
     }
 
     100% {
-        width: 290px;
+        rotate: z 360deg;
     }
 }

@@ -82,11 +82,6 @@ p {
     user-select: none;
 }
 
-p:hover {
-    color: rgb(32, 30, 30);
-    font-size: 19px;
-}
-
 
 #footer-logo {
     width: 90px;
