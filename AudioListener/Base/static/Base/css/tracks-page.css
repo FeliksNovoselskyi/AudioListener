@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(24, 23, 23);
+}
+
+header {
+    background-color: rgb(32, 33, 33);
+}
+
+
+.music-styles-a {
+    transition: all 300ms ease-in-out;
+}
+
+.music-styles-a:hover {
+    color: rgb(198, 192, 192);
+}
+
+.music-styles-a-conts {
+    background-color: rgb(58, 56, 56);
+    border-radius: 6px;
+    padding: 2.5px;
+    margin-top: 25px;
+    transition: all 300ms ease-in-out;
+}
+
+.music-styles-a-conts:hover {
+    background-color: rgb(63, 62, 62);
+}
+
+.music-styles-cont {
+    width: 115px;
+    text-align: center;
+    background-color: rgb(46, 44, 44);
+    border-radius: 16px;
+    padding: 15px;
+    margin: 5px;
+}

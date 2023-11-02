@@ -14,9 +14,9 @@
 </head>
 <body>
     <header>
-        <img src="{% static 'Base/img/logo.png' %}" alt="logo" id="logo">
-        <div class="header_a_cont"><a class="header_a" href="{% url 'main_page' %}">Головна</a></div>
-        <div class="header_a_cont"><a class="header_a" href="{% url 'tracks_page' %}">Треки</a></div>
+        <img src="{% static 'Base/img/main-page/logo.png' %}" alt="logo" id="logo">
+        <div class="header_a_cont"><a class="header-a" href="{% url 'main_page' %}">Головна</a></div>
+        <div class="header_a_cont"><a class="header-a" href="{% url 'tracks_page' %}">Треки</a></div>
     </header>
 
     <main>
@@ -26,8 +26,8 @@
 
     <footer>
         <div id="footer-cont">
-            <h3>А ти прослуховуєш музику на AudioListener?</h3>
-            <img src="{% static 'Base/img/footer_logo.png' %}" alt="footer_logo" id="footer-logo">
+            <h3 id="footer-cont-h3">А ти прослуховуєш музику на AudioListener?</h3>
+            <img src="{% static 'Base/img/main-page/footer_logo.png' %}" alt="footer_logo" id="footer-logo">
         </div>
     </footer>
 </body>
