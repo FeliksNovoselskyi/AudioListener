@@ -24,4 +24,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', main_views.main_func, name='main_page'),
     path('tracks/', tracks_views.tracks_func, name='tracks_page'),
+    path('phonk/', tracks_views.phonk_func, name='phonk_page'),
+    path('rock/', tracks_views.rock_func, name='rock_page'),
+    path('jazz/', tracks_views.jazz_func, name='jazz_page'),
+    path('heavy_metal/', tracks_views.heavy_metal_func, name='heavy_metal_page'),
+    path('classic/', tracks_views.classic_func, name='classic_page'),
 ]

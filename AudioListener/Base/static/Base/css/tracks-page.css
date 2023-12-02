@@ -35,3 +35,46 @@ header {
     padding: 15px;
     margin: 5px;
 }
+
+.tracks_div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(24, 23, 23);
+    padding: 2px 5px;
+    border-radius: 16px;
+}
+
+button {
+    padding: 0px;
+    margin-left: 1px;
+    width: 50px;
+    height: auto;
+    border: transparent;
+    background-color: transparent;
+    transition: all 300ms ease-in-out;
+}
+
+button:hover {
+    rotate: z 180deg;
+}
+
+.play_button_logo {
+    margin-top: 5px;
+    width: 50px;
+    height: auto;
+}
+
+.tracks-cont {
+    width: 250px;
+    text-align: center;
+    background-color: rgb(54, 51, 51);
+    border-radius: 16px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.tracks-h {
+    margin-left: 15px;
+    color: rgb(236, 229, 217);
+}
